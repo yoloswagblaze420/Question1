@@ -13,6 +13,7 @@ describe "lovemac" do
     expect(lovemac(5)).to eq("Mac")
     expect(lovemac(10)).to eq("Mac")
     expect(lovemac(13)).to eq(13)
+    expect(lovemac(14)).to eq(14)
 
   end
 end
