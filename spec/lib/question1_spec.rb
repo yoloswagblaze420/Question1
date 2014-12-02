@@ -11,7 +11,7 @@ describe "lovemac" do
     expect(lovemac(15)).to eq("HateWindows")
     expect(lovemac(6)).to eq("Love")
     expect(lovemac(5)).to eq("Mac")
-    expect(lovemac(10)).to eq("Mac")
+    expect(lovemac(10)).to eq("Ma")
 
   end
 end
